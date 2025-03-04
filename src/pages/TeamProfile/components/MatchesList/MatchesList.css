@@ -1,0 +1,20 @@
+.custom-meta {
+    align-items: flex-start !important;  /* Align text to the top */
+  }
+  
+  .custom-meta .ant-list-item-meta-content {
+    justify-items: flex-start !important;  /* Align text to the top */
+    text-align: left;
+  }
+
+  .custom-meta .ant-list-item-meta-avatar {
+    margin-right: 12px;  /* Reduce the space between avatar and text */
+  }
+  
+  .custom-meta .ant-list-item-meta-title {
+    margin-bottom: 2px;  /* Reduce spacing between title and description */
+  }
+  
+  .custom-meta .ant-list-item-meta-description {
+    margin-top: 0;
+  }

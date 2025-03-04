@@ -1,0 +1,46 @@
+.header {
+    background-color: white; /* Dark blue (Ant Design default) */
+    color: #30333C;
+    padding: 10px 10px 20px; /* Adds top padding for the logo */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.header-back-button {
+    justify-self: flex-start;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    width: 40px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header-logo {
+    width: 100px; /* Adjust the logo size */
+    height: auto;
+    margin-bottom: 20px; /* Space between logo and title */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: '100%';
+    max-width: '800px';
+}

@@ -1,0 +1,31 @@
+/* Header.css */
+.header {
+    background-color: white; /* Dark blue (Ant Design default) */
+    color: #30333C;
+    text-align: center;
+    padding: 40px 20px 20px; /* Adds top padding for the logo */
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .header-logo {
+    width: 100px; /* Adjust the logo size */
+    height: auto;
+    margin-bottom: 20px; /* Space between logo and title */
+  }
+  
+  .header-title {
+    font-size: 2rem; /* Adjust title font size */
+    margin: 10px 0; /* Space above and below the title */
+  }
+  
+  .header-description {
+    font-size: 1rem; /* Adjust description font size */
+    color: #30333C; /* Light gray for better contrast */
+  }
+  
